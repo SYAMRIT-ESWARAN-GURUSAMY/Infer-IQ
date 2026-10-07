@@ -1,0 +1,622 @@
+[
+  {
+    "id": "java-collections-1",
+    "skill": "Java",
+    "difficulty": 1,
+    "question": "When would you use a List, Set, and Map?",
+    "concepts": [
+      "list",
+      "set",
+      "map",
+      "duplicates"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: list, set, map, duplicates. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "java-hashmap-1",
+    "skill": "Java",
+    "difficulty": 2,
+    "question": "Explain how a HashMap stores and retrieves a value, including collisions.",
+    "concepts": [
+      "hashing",
+      "buckets",
+      "collision",
+      "load factor"
+    ],
+    "prerequisites": [
+      "Collections"
+    ],
+    "rubric": "Address the key concepts: hashing, buckets, collision, load factor. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "java-concurrency-1",
+    "skill": "Java",
+    "difficulty": 3,
+    "question": "How would you make a shared counter safe across multiple threads?",
+    "concepts": [
+      "race condition",
+      "synchronization",
+      "atomic",
+      "visibility"
+    ],
+    "prerequisites": [
+      "Java"
+    ],
+    "rubric": "Address the key concepts: race condition, synchronization, atomic, visibility. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "python-errors-1",
+    "skill": "Python",
+    "difficulty": 1,
+    "question": "How do you handle an expected file-not-found error in Python?",
+    "concepts": [
+      "try",
+      "except",
+      "exception",
+      "finally"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: try, except, exception, finally. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "python-generators-1",
+    "skill": "Python",
+    "difficulty": 2,
+    "question": "What is a generator and why can it be more memory efficient than a list?",
+    "concepts": [
+      "yield",
+      "iteration",
+      "lazy evaluation",
+      "memory"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: yield, iteration, lazy evaluation, memory. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "python-decorators-1",
+    "skill": "Python",
+    "difficulty": 3,
+    "question": "Explain a decorator and give a useful application.",
+    "concepts": [
+      "function",
+      "wrapper",
+      "@",
+      "metadata"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: function, wrapper, @, metadata. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "sql-joins-1",
+    "skill": "SQL",
+    "difficulty": 1,
+    "question": "Compare INNER JOIN and LEFT JOIN with an example use case.",
+    "concepts": [
+      "inner join",
+      "left join",
+      "matching rows",
+      "null"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: inner join, left join, matching rows, null. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "sql-indexes-1",
+    "skill": "SQL",
+    "difficulty": 2,
+    "question": "What is an index and what trade-offs does it introduce?",
+    "concepts": [
+      "index",
+      "query plan",
+      "read",
+      "write"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: index, query plan, read, write. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "sql-acid-1",
+    "skill": "SQL",
+    "difficulty": 3,
+    "question": "What does ACID mean in a database transaction?",
+    "concepts": [
+      "atomicity",
+      "consistency",
+      "isolation",
+      "durability"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: atomicity, consistency, isolation, durability. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "dsa-complexity-1",
+    "skill": "DSA",
+    "difficulty": 1,
+    "question": "How do nested loops affect time complexity?",
+    "concepts": [
+      "complexity",
+      "nested loop",
+      "quadratic",
+      "input size"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: complexity, nested loop, quadratic, input size. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "dsa-binary-search-1",
+    "skill": "DSA",
+    "difficulty": 2,
+    "question": "Explain binary search and its time complexity.",
+    "concepts": [
+      "sorted",
+      "midpoint",
+      "halve",
+      "logarithmic"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: sorted, midpoint, halve, logarithmic. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "dsa-bfs-dfs-1",
+    "skill": "DSA",
+    "difficulty": 3,
+    "question": "Compare breadth-first search and depth-first search.",
+    "concepts": [
+      "queue",
+      "stack",
+      "breadth",
+      "depth"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: queue, stack, breadth, depth. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-0",
+    "skill": "Java",
+    "difficulty": 2,
+    "question": "Why should equals and hashCode be implemented consistently for objects used as map keys?",
+    "concepts": [
+      "equals",
+      "hashCode",
+      "hash-based collections",
+      "contract"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: equals, hashCode, hash-based collections, contract. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-1",
+    "skill": "Java",
+    "difficulty": 2,
+    "question": "When would you choose a checked exception, and how can try-with-resources help?",
+    "concepts": [
+      "checked exception",
+      "unchecked exception",
+      "try-with-resources",
+      "propagation"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: checked exception, unchecked exception, try-with-resources, propagation. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-2",
+    "skill": "Java",
+    "difficulty": 2,
+    "question": "How can streams transform and collect a collection of records?",
+    "concepts": [
+      "stream",
+      "filter",
+      "map",
+      "collect"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: stream, filter, map, collect. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-3",
+    "skill": "Python",
+    "difficulty": 1,
+    "question": "Why are mutable default arguments surprising, and what pattern avoids the issue?",
+    "concepts": [
+      "default argument",
+      "mutable",
+      "function call",
+      "None"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: default argument, mutable, function call, None. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-4",
+    "skill": "Python",
+    "difficulty": 1,
+    "question": "When does a comprehension improve code, and when is a loop clearer?",
+    "concepts": [
+      "comprehension",
+      "readability",
+      "filter",
+      "transform"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: comprehension, readability, filter, transform. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-5",
+    "skill": "Python",
+    "difficulty": 3,
+    "question": "How do async and await help with I/O-bound work?",
+    "concepts": [
+      "async",
+      "await",
+      "event loop",
+      "I/O-bound"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: async, await, event loop, I/O-bound. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-6",
+    "skill": "SQL",
+    "difficulty": 3,
+    "question": "What do transaction isolation levels protect against?",
+    "concepts": [
+      "transaction",
+      "isolation level",
+      "dirty read",
+      "serializable"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: transaction, isolation level, dirty read, serializable. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-7",
+    "skill": "SQL",
+    "difficulty": 2,
+    "question": "How would you use a window function to rank rows within groups?",
+    "concepts": [
+      "window function",
+      "partition by",
+      "row number",
+      "ranking"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: window function, partition by, row number, ranking. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-8",
+    "skill": "SQL",
+    "difficulty": 2,
+    "question": "How should a query handle NULL values and unknown comparisons?",
+    "concepts": [
+      "NULL",
+      "three-valued logic",
+      "COALESCE",
+      "IS NULL"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: NULL, three-valued logic, COALESCE, IS NULL. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-9",
+    "skill": "DSA",
+    "difficulty": 1,
+    "question": "Compare arrays and linked lists for lookup and insertion.",
+    "concepts": [
+      "contiguous",
+      "pointer",
+      "random access",
+      "insertion"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: contiguous, pointer, random access, insertion. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-10",
+    "skill": "DSA",
+    "difficulty": 2,
+    "question": "How does a heap support priority queue operations?",
+    "concepts": [
+      "heap",
+      "priority queue",
+      "extract minimum",
+      "logarithmic"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: heap, priority queue, extract minimum, logarithmic. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-11",
+    "skill": "DSA",
+    "difficulty": 2,
+    "question": "When is an adjacency list preferable to an adjacency matrix?",
+    "concepts": [
+      "adjacency list",
+      "adjacency matrix",
+      "vertices",
+      "edges"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: adjacency list, adjacency matrix, vertices, edges. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-12",
+    "skill": "Web Development",
+    "difficulty": 2,
+    "question": "Walk through how the browser event loop schedules a callback.",
+    "concepts": [
+      "event loop",
+      "call stack",
+      "microtask",
+      "render"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: event loop, call stack, microtask, render. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-13",
+    "skill": "Web Development",
+    "difficulty": 1,
+    "question": "How do semantic HTML and keyboard support improve accessibility?",
+    "concepts": [
+      "semantic HTML",
+      "accessibility",
+      "keyboard",
+      "screen reader"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: semantic HTML, accessibility, keyboard, screen reader. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-14",
+    "skill": "Web Development",
+    "difficulty": 2,
+    "question": "How should a React component update state when rendering a list?",
+    "concepts": [
+      "state",
+      "props",
+      "render",
+      "immutable"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: state, props, render, immutable. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-15",
+    "skill": "Web Development",
+    "difficulty": 1,
+    "question": "How do you make a web request and handle unsuccessful responses?",
+    "concepts": [
+      "HTTP",
+      "status code",
+      "request",
+      "response"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: HTTP, status code, request, response. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-16",
+    "skill": "Web Development",
+    "difficulty": 2,
+    "question": "How would you make a page layout adapt to mobile and desktop?",
+    "concepts": [
+      "media query",
+      "flexbox",
+      "grid",
+      "viewport"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: media query, flexbox, grid, viewport. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-17",
+    "skill": "System Design",
+    "difficulty": 2,
+    "question": "How would you scale a service that is reaching its capacity?",
+    "concepts": [
+      "vertical scaling",
+      "horizontal scaling",
+      "load balancer",
+      "stateless"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: vertical scaling, horizontal scaling, load balancer, stateless. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-18",
+    "skill": "System Design",
+    "difficulty": 2,
+    "question": "What makes cache invalidation difficult, and how can a TTL help?",
+    "concepts": [
+      "cache",
+      "TTL",
+      "invalidation",
+      "stale"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: cache, TTL, invalidation, stale. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-19",
+    "skill": "System Design",
+    "difficulty": 2,
+    "question": "What should a reliable public API define for pagination and retries?",
+    "concepts": [
+      "pagination",
+      "idempotency",
+      "versioning",
+      "rate limiting"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: pagination, idempotency, versioning, rate limiting. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-20",
+    "skill": "System Design",
+    "difficulty": 3,
+    "question": "How do replication and consistency choices affect availability?",
+    "concepts": [
+      "replication",
+      "consistency",
+      "availability",
+      "partition"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: replication, consistency, availability, partition. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-21",
+    "skill": "System Design",
+    "difficulty": 2,
+    "question": "How would a message queue decouple two services?",
+    "concepts": [
+      "message queue",
+      "producer",
+      "consumer",
+      "retry"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: message queue, producer, consumer, retry. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-22",
+    "skill": "Cloud & DevOps",
+    "difficulty": 1,
+    "question": "What does a container image contain, and how does a registry fit in?",
+    "concepts": [
+      "container",
+      "image",
+      "isolation",
+      "registry"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: container, image, isolation, registry. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-23",
+    "skill": "Cloud & DevOps",
+    "difficulty": 2,
+    "question": "What stages would you put in a basic CI/CD pipeline?",
+    "concepts": [
+      "continuous integration",
+      "continuous delivery",
+      "test",
+      "deploy"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: continuous integration, continuous delivery, test, deploy. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-24",
+    "skill": "Cloud & DevOps",
+    "difficulty": 2,
+    "question": "How do a pod, deployment, and service relate in Kubernetes?",
+    "concepts": [
+      "pod",
+      "deployment",
+      "service",
+      "replica"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: pod, deployment, service, replica. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-25",
+    "skill": "Cloud & DevOps",
+    "difficulty": 2,
+    "question": "How do logs, metrics, and traces help diagnose a production issue?",
+    "concepts": [
+      "logs",
+      "metrics",
+      "traces",
+      "alert"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: logs, metrics, traces, alert. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-26",
+    "skill": "Cloud & DevOps",
+    "difficulty": 2,
+    "question": "How should an application store and rotate credentials?",
+    "concepts": [
+      "secret",
+      "environment variable",
+      "least privilege",
+      "rotation"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: secret, environment variable, least privilege, rotation. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-27",
+    "skill": "Data Science & ML",
+    "difficulty": 2,
+    "question": "How can you detect data leakage when splitting a dataset?",
+    "concepts": [
+      "training set",
+      "test set",
+      "data leakage",
+      "validation"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: training set, test set, data leakage, validation. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-28",
+    "skill": "Data Science & ML",
+    "difficulty": 1,
+    "question": "When is a problem classification versus regression?",
+    "concepts": [
+      "classification",
+      "regression",
+      "target",
+      "metric"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: classification, regression, target, metric. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-29",
+    "skill": "Data Science & ML",
+    "difficulty": 2,
+    "question": "How do precision and recall behave when classes are imbalanced?",
+    "concepts": [
+      "precision",
+      "recall",
+      "F1",
+      "class imbalance"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: precision, recall, F1, class imbalance. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-30",
+    "skill": "Data Science & ML",
+    "difficulty": 2,
+    "question": "How can regularization help when a model overfits?",
+    "concepts": [
+      "overfitting",
+      "regularization",
+      "generalization",
+      "validation"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: overfitting, regularization, generalization, validation. Explain the reasoning and give a clear example."
+  },
+  {
+    "id": "inferiq-extra-31",
+    "skill": "Data Science & ML",
+    "difficulty": 2,
+    "question": "Why should imputation and scaling be part of a fitted pipeline?",
+    "concepts": [
+      "missing value",
+      "imputation",
+      "scaling",
+      "pipeline"
+    ],
+    "prerequisites": [],
+    "rubric": "Address the key concepts: missing value, imputation, scaling, pipeline. Explain the reasoning and give a clear example."
+  }
+]
